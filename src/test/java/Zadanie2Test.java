@@ -6,7 +6,7 @@ public class Zadanie2Test {
     @Test
     public void shouldFindComplementaryChain() {
         //given
-        String dnaChain = "GAGAAACGGGA";
+        String dnaChain = "GAGAAAGGGA";
         Zadanie2 zadanie2 = new Zadanie2();
         String expectedChain = "CTCTTTCCCT";
 

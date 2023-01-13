@@ -18,6 +18,6 @@ public class Zadanie1Test {
         Assertions.assertEquals(perfectNumbers.get(0), 6);
         Assertions.assertEquals(perfectNumbers.get(1), 28);
         Assertions.assertEquals(perfectNumbers.get(2), 496);
-        Assertions.assertEquals(perfectNumbers.get(3), 812);
+        Assertions.assertEquals(perfectNumbers.get(3), 8128);
     }
 }
