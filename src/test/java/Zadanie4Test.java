@@ -18,5 +18,20 @@ public class Zadanie4Test {
         //then
         Assertions.assertArrayEquals(sortedNumbers.toArray(), expectedNumbers.toArray());
     }
+
+    @Test
+    public void shouldSwapNumbers() {
+        //given
+        List<Integer> numbers = Arrays.asList(3, 2, 1);
+        List<Integer> expectedResultNumbers = Arrays.asList(1, 2, 3);
+
+        //when
+        List<Integer> result = Zadanie4.swapNumbers(numbers, 0, 2);
+
+        //then
+        Assertions.assertArrayEquals(result.toArray(), expectedResultNumbers.toArray());
+
+
+    }
     }
 

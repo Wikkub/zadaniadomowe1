@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Lista imion może zawierać duplikaty, których chcemy uniknąć.
@@ -13,7 +11,26 @@ public class Zadanie3 {
     private final List<String> imiona = Arrays.asList("Tomek", "Damian", "Damian", "Kamil", "Karol", "Janusz", "Karol");
 
     public List<String> removeDuplicates(List<String> names) {
+        ArrayList<String> newList = new ArrayList();
+        newList.add(names.get(0));
 
-        return new ArrayList<>();
+//        Set<String> s = new HashSet<>();
+//        s.addAll(names);
+//        return s.stream().toList();
+
+        for (int i = 1; i < names.size(); i++) {
+            String currentElement = names.get(i);
+            boolean duplicated = false;
+            for (int j = 0; j < newList.size(); j++) {
+                String newListElement = newList.get(j);
+                if (currentElement.equals(newListElement)) {
+                    duplicated = true;
+                }
+            }
+            if (duplicated == false) {
+                newList.add(currentElement);
+            }
+        }
+        return newList;
     }
 }
