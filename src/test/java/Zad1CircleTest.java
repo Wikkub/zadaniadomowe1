@@ -1,16 +1,16 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CircleTest {
+public class Zad1CircleTest {
 
     @Test
     public void shouldCalculateCircleArea() {
         // given
-        Circle circle = new Circle();
-        circle.setRadius(5);
+        Zad1Circle zad1Circle = new Zad1Circle();
+        zad1Circle.setRadius(5);
         // when
         double expectedCircleArea = 78.53981633974483;
-        double result = circle.circleArea();
+        double result = zad1Circle.circleArea();
         // then
         Assertions.assertEquals(expectedCircleArea, result);
 

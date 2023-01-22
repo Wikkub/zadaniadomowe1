@@ -1,4 +1,4 @@
-package devices;
+package zad2devices;
 
 public class MobilePhone extends MobileDevice {
     private String LTESupport;

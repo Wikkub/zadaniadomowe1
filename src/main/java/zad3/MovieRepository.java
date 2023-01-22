@@ -1,4 +1,4 @@
-package task03;
+package zad3;
 
 import java.util.ArrayList;
 import java.util.List;

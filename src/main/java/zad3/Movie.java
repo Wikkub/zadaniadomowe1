@@ -11,12 +11,10 @@ Stwórz interfejs MovieRepositoryApi który będzie deklarować podstawowe opera
 - findByTitle
 Napisz implementację interfejsu MovieRepository, która będzie implementować metody z interfejsu MovieRepositoryApi
  */
-package task03;
+package zad3;
 
 import lombok.Getter;
 
-import java.util.ArrayList;
-import java.util.List;
 @Getter
 public class Movie {
     private String title;

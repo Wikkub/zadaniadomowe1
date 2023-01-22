@@ -1,4 +1,4 @@
-package devices;
+package zad2devices;
 
 public class Tablet extends MobileDevice {
     private String pencilSupport;

@@ -1,6 +1,4 @@
-package devices;
-
-import lombok.AllArgsConstructor;
+package zad2devices;
 
 /*
 Zadanie 2

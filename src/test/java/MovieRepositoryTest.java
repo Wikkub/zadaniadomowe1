@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import task03.Movie;
-import task03.MovieRepository;
+import zad3.Movie;
+import zad3.MovieRepository;
 
 public class MovieRepositoryTest {
     @Test

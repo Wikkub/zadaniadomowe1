@@ -9,7 +9,7 @@ Ukryj dostęp do pola klasy. Upublicznij mechanizm obliczania:
 
 import static java.lang.Math.PI;
 
-public class Circle {
+public class Zad1Circle {
     private double radius;
 
     public void setRadius(double radius) {
