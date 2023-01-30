@@ -27,7 +27,7 @@ public class Zadanie3 {
                     duplicated = true;
                 }
             }
-            if (duplicated == false) {
+            if (!duplicated) {
                 newList.add(currentElement);
             }
         }

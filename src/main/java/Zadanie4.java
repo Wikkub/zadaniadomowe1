@@ -17,7 +17,7 @@ public class Zadanie4 {
                 int currentNumber = numbers.get(j);
                 int previousNumber = numbers.get(j - 1);
                 if (previousNumber > currentNumber) {
-                    numbers = swapNumbers(numbers, j - 1, j);
+                    swapNumbers(numbers, j - 1, j);
                 }
             }
         }

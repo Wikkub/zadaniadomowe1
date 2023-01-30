@@ -18,7 +18,7 @@ public class Zadanie1 {
         ArrayList<Integer> perfectNumbersList = new ArrayList();
 
         while (found != n) {
-            if (isPerfectNumber(x) == true) {
+            if (isPerfectNumber(x)) {
                 perfectNumbersList.add(x);
                 found = found + 1;
             }

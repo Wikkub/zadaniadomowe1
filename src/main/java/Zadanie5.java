@@ -11,8 +11,7 @@ public class Zadanie5 {
         final int ADULT = 18;
 
         if (age >= ADULT) {
-            return true;
         }
-        return false;
+        return age >= 18;
     }
 }

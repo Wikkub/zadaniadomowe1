@@ -12,7 +12,8 @@
 public class Zadanie2 {
 
     public String findComplementaryChain(String chain) {
-        String complementaryChain = "";
+//        String complementaryChain = "";
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < chain.length(); i++) {
             char currentElement = chain.charAt(i);
 
@@ -33,10 +34,13 @@ public class Zadanie2 {
                 case 'T' -> currentElement = 'A';
             }
 
-            complementaryChain = complementaryChain + currentElement;
+            sb.append(currentElement);
+//            complementaryChain = complementaryChain + currentElement;
         }
 
 
-        return complementaryChain;
+
+//        return complementaryChain;
+        return sb.toString();
     }
 }
